@@ -139,20 +139,21 @@ background: #394150;
 
 .cuerpo #cuerpo-imag{
  
- margin-left:10px;
- margin-right:0px;
- margin-top: 150px;
- 
- width: 480px;
- height: 566px;
- margin: auto;
-
- border-radius: 90%;
- border-style:hidden;
- float: left;
- background-image: url("IMG/pngegg\ \(10\).png");
- z-index: -1;
- 
+    position: relative;
+    margin-right:50px;
+    margin-top: 150px;
+    justify-content: center;
+    border: red solid 1px;
+    left: 66px;
+    
+    width: 480px;
+    height: 566px;
+    margin: auto;
+    
+    border-radius: 90%;
+    border-style:hidden;
+    float: left;
+    background-image: url(IMG/pngegg\ \(10\).png);
  
 
 }
