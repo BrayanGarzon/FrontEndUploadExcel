@@ -10,9 +10,10 @@
     --font-family: "Roboto", sans-serif;
 
 
-    --color-text: #404550;
+    --color-second: #404550;
     --color-border-dashed: #4045505f;
 }
+
 
 body{
     margin: 0;
@@ -41,19 +42,26 @@ body{
     background-color: var(--background-color-second);
 }
 
-.container .upload h1{
-    font-weight: 300;
-    color: var(--color-text);
-}
-
 .container .upload .uploadFile{
     width: 70%;
     height: 50%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: var(--background-color);
     border: 2px dashed var(--color-border-dashed);
     cursor: pointer;
 }
-.uploadFile.dragover {
-    background-color: #f0f0f0;
+.container .upload .uploadFile i{
+    font-size: 110px;
+    color: var(--color-second);
+    cursor: pointer;
 }
+.container .upload .uploadFile span{
+    margin-top: 1rem;
+    color: var(--color-second);
+    font-weight: 500;
+}
+
